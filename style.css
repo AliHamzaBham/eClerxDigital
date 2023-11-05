@@ -619,6 +619,7 @@ i {
 
 @media (max-width: 767px) {
     .services-section {
+        width: 95vw;
         display: block;
         margin-top: 100px;
     }
