@@ -33,6 +33,7 @@ body {
 
 @media (max-width:776px) {
     #logo {
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 }
