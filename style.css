@@ -63,8 +63,9 @@ body {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    margin-top: 6px;
+    font-size: 14px;
 }
+
 
 .nav a {
     position: relative;
@@ -115,11 +116,21 @@ body {
 }
 
 .nav.active .container {
-    padding: 20px 0;
+    padding: 10px 0px 0px 0px;
 }
 
 i {
     margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .nav ul {
+        margin-left: -15px;
+    }
+
+    .nav a {
+        padding: 4px 10px;
+    }
 }
 
 .hero {
