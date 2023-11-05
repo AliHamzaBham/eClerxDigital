@@ -578,7 +578,7 @@ i {
 
 /* MetaVerse Section */
 .services-section {
-    width: 80vw;
+    width: 90vw;
     margin: 260px auto 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
